@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    padding:16px;
+}
+
+main{
+    padding:16px;
+}
+
+footer{
+    background:#f8f9fa;
+    color:#333;
+    text-align:center;
+    padding:12px;
+}
+
+h2{
+    margin:0 0 8px 0;
+    font-size:24px
+}
+
+h3{
+    margin:0 0 8px 0;
+}
+
+button{
+    background:#198754;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* Aquí  las etiquetas p y a tienen un estilo definido, a excepción de una etiqueta en el HTML en la que se especifica más o se cambian características, por lo que entra en la cascada */
+
+p{
+    color:#666;
+    margin:0 0 12px 0;
+}
+
+.descPag{
+    color:#555;
+    line-height:1.5;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    margin-right:12px;
+}
+
+.mail{
+    color:#0d6efd;
+    text-decoration:underline;
+}
+
+
+
+article{
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:12px;
+}
+
+.precio{
+    display:inline-block;
+    background:#ffeeba;
+    color:#664d03;
+    padding:4px 8px;
+    border-radius:4px;
+}
+
+/* Se usan ids en estas secciones porque son de uso único, para secciones específicas, no para etiquetas que se repitan */
+
+#site-title{
+    margin:0;
+    font-size:28px;
+}
+
+#home{
+    margin-bottom:24px;
+}
+
+#productos{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:16px;
+    margin-bottom:24px;
+}
+
+#contacto{
+    margin-bottom:24px;
+}
